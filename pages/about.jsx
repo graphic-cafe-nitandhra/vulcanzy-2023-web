@@ -1,9 +1,10 @@
 import Default from '@/layouts/default';
 
-export default function Home() {
+function About() {
   return (
     <Default>
-      <div className="hero"></div>
+      <h1>About Us coming soon!</h1>
     </Default>
   );
 }
+export default About;

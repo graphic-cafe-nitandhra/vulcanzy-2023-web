@@ -1,9 +1,9 @@
 import Default from '@/layouts/default';
-
-export default function Home() {
+function Gallery() {
   return (
     <Default>
-      <div className="hero"></div>
+      <h1>Gallery is about to come!!</h1>
     </Default>
   );
 }
+export default Gallery;

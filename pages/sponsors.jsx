@@ -1,9 +1,10 @@
 import Default from '@/layouts/default';
 
-export default function Home() {
+function Sponsors() {
   return (
     <Default>
-      <div className="hero"></div>
+      <h1>Sponsors coming soon!</h1>
     </Default>
   );
 }
+export default Sponsors;
