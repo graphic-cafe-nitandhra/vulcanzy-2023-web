@@ -3,7 +3,9 @@ import Default from '@/layouts/default';
 function Events() {
   return (
     <Default>
-      <h1>All events</h1>
+      <div className="mt-[120px]">
+        <h1>All events</h1>
+      </div>
     </Default>
   );
 }

@@ -5,7 +5,9 @@ function Event() {
   const eventID = router.query.event_id;
   return (
     <Default>
-      <h1>This event is:{eventID}</h1>
+      <div className="mt-[120px]">
+        <h1>This event is:{eventID}</h1>
+      </div>
     </Default>
   );
 }
