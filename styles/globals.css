@@ -22,3 +22,15 @@ body {
   font-size: 54px;
   line-height: 64px;
 }
+/*Timer styling*/
+.hurry-up {
+  position: relative;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  font-family: 'Roboto', sans-serif;
+  font-style: normal;
+  width: 100%;
+  height: 0;
+}
