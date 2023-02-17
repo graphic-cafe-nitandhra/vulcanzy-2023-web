@@ -1,9 +1,9 @@
 import Contact from './Contact';
 function Home_Info() {
   let info = [
-    'Feel free to contact us.+917489119996',
+    'Feel free to contact us. +917489119996',
     'Old Aerodrome,Near Kondruprolu,Tadepalligudem,Andhra Pradesh,534101',
-    'Feel free to mail us at:vulcanzy@nitandhra.ac.in',
+    'Feel free to mail us at: vulcanzy@nitandhra.ac.in',
   ];
   let links = [
     'tel:+917489119996',
@@ -13,7 +13,7 @@ function Home_Info() {
   let nums = [0, 1, 2];
   return (
     <div className="hero-2 flex justify-center  h-screen text-center">
-      <div className=" text-white flex my-[22.5rem] justify-around  text-[1.25rem]">
+      <div className=" text-white flex my-[22.5rem] justify-around  flex-wrap text-[1.25rem]">
         {nums.map(e => {
           return <Contact info={info[e]} redirects={links[e]} />;
         })}
