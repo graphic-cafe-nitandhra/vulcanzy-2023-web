@@ -8,8 +8,8 @@
   font-weight: 700;
 }
 body {
-  height: 200vh;
   font-family: 'Poppins', sans-serif;
+  background-color: black;
 }
 .hero {
   background-image: url('../public/assets/imgs/home_back2.jpg');
