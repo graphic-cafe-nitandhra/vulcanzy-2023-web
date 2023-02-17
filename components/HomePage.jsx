@@ -15,7 +15,7 @@ function HomePage() {
         <h1 className="subhead text-center text-white">
           <i>#RHAPSODY</i>
         </h1>
-        <div className="text-white mt-[18rem] font-[700]  flex items-center  justify-between w-full">
+        <div className="text-white mt-[17rem] font-[700]  flex items-center  justify-between w-full">
           <div className="ml-12">
             <h2 className="text-[2rem]">JOIN THE RYTHM OF #RHAPSODY:</h2>
             <h2 className="text-[1.5rem] font-[700]">
@@ -23,7 +23,9 @@ function HomePage() {
             </h2>
           </div>
           <label className=" text-[1.5rem] mr-12 flex items-center justify-center w-[100px] h-[50px] rounded-[50px]  border-spacing-16 bg-[#DC4B5D]">
-            Join
+            <a href="https://bit.ly/3xuySzf" target="_blank">
+              Join
+            </a>
           </label>
         </div>
       </div>
