@@ -1,5 +1,6 @@
 import Image from 'next/image';
 import Timer from './Timer';
+import Home_Info from './Home_Info';
 import vul_black from '../public/assets/imgs/Vulcanzy_black.png';
 function HomePage() {
   return (
@@ -33,6 +34,9 @@ function HomePage() {
         <h2 className="text-[3rem] my-16 text-white">
           <Timer />
         </h2>
+      </div>
+      <div className="h-screen">
+        <Home_Info />
       </div>
     </div>
   );
