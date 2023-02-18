@@ -36,7 +36,7 @@ function Events() {
           </div>
           <div className="flex justify-center my-8 flex-wrap">
             {events.map(e => {
-              return <Event_Card title={e.name} />;
+              return <Event_Card title={e.name} club={e.link} />;
             })}
           </div>
         </div>
