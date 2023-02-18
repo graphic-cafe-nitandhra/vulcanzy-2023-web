@@ -16,19 +16,19 @@ function Events() {
         <div className="flex flex-col items-center justify-center">
           <div className="flex justify-between">
             <h1
-              onClick={() => clickHandler('odd')}
+              onClick={() => setEvents(events_data)}
               className="text-[1.75rem] flex mx-8 cursor-pointer items-center justify-center w-[10rem] h-[50px] rounded-[50px]  border-spacing-16 bg-[#DC4B5D]"
             >
               All
             </h1>
             <h1
-              onClick={() => clickHandler('even')}
+              onClick={() => clickHandler('tech')}
               className="text-[1.75rem] flex mx-8 cursor-pointer items-center justify-center w-[10rem] h-[50px] rounded-[50px]  border-spacing-16 bg-[#DC4B5D]"
             >
               Technical
             </h1>
             <h1
-              onClick={() => setEvents(events_data)}
+              onClick={() => clickHandler('cult')}
               className="text-[1.75rem] flex mx-8  cursor-pointer items-center justify-center w-[10rem] h-[50px] rounded-[50px]  border-spacing-16 bg-[#DC4B5D]"
             >
               Cultural
@@ -36,7 +36,7 @@ function Events() {
           </div>
           <div className="flex justify-center my-8 flex-wrap">
             {events.map(e => {
-              return <Event_Card title={e.val} />;
+              return <Event_Card title={e.name} />;
             })}
           </div>
         </div>
