@@ -1,39 +1,11 @@
 import Default from '@/layouts/default';
+import Event_Card from '@/components/Event_Card';
+import events_data from '@/components/events_data';
 import { useState } from 'react';
 function Events() {
-  let nums = [
-    {
-      val: 1,
-      cat: 'odd',
-    },
-    {
-      val: 2,
-      cat: 'even',
-    },
-    {
-      val: 3,
-      cat: 'odd',
-    },
-    {
-      val: 4,
-      cat: 'even',
-    },
-    {
-      val: 5,
-      cat: 'odd',
-    },
-    {
-      val: 6,
-      cat: 'even',
-    },
-    {
-      val: 7,
-      cat: 'odd',
-    },
-  ];
-  const [events, setEvents] = useState(nums);
+  const [events, setEvents] = useState(events_data);
   function clickHandler(catg) {
-    const upd_list = nums.filter(each => {
+    const upd_list = events_data.filter(each => {
       return each.cat === catg;
     });
     setEvents(upd_list);
@@ -56,15 +28,15 @@ function Events() {
               Technical
             </h1>
             <h1
-              onClick={() => setEvents(nums)}
-              className="text-[1.75rem] flex mx-8 cursor-pointer items-center justify-center w-[10rem] h-[50px] rounded-[50px]  border-spacing-16 bg-[#DC4B5D]"
+              onClick={() => setEvents(events_data)}
+              className="text-[1.75rem] flex mx-8  cursor-pointer items-center justify-center w-[10rem] h-[50px] rounded-[50px]  border-spacing-16 bg-[#DC4B5D]"
             >
               Cultural
             </h1>
           </div>
-          <div className="flex flex-wrap">
+          <div className="flex justify-center my-8 flex-wrap">
             {events.map(e => {
-              return <h4>{e.val}</h4>;
+              return <Event_Card title={e.val} />;
             })}
           </div>
         </div>
