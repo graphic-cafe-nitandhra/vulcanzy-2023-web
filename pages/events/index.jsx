@@ -2,6 +2,7 @@ import Default from '@/layouts/default';
 import Event_Card from '@/components/Event_Card';
 import events_data from '@/components/events_data';
 import { useState } from 'react';
+import Event_Card2 from '@/components/Event_Card2';
 function Events() {
   const [events, setEvents] = useState(events_data);
   function clickHandler(catg) {
@@ -36,7 +37,14 @@ function Events() {
           </div>
           <div className="flex justify-center my-8 flex-wrap">
             {events.map(e => {
-              return <Event_Card title={e.name} club={e.link} />;
+              return (
+                <Event_Card2
+                  title={e.name}
+                  club={e.link}
+                  poster_link={e.poster}
+                  description={e.descr}
+                />
+              );
             })}
           </div>
         </div>

@@ -1,10 +1,10 @@
 function Event_Card(props) {
   return (
-    <div className="text-white my-4 mx-8 w-[25rem] h-[22.5rem] event-card">
+    <div className="text-white my-8 mx-8 w-[25rem] h-[22.5rem] event-card">
       <div className="flex items-center flex-col">
         <img
-          className="w-full h-[10rem] rounded-[25px]"
-          src="https://images.pexels.com/photos/66134/pexels-photo-66134.jpeg?auto=compress&cs=tinysrgb&w=600"
+          className="w-full  rounded-[25px] aspect-square"
+          src="https://i.ibb.co/54wSZmH/ESCHEWAL-1080-1350-px-1080-1080-px.png"
         />
         <div className="flex text-[1.5rem] my-4 px-4 justify-between items-center w-full">
           <h4>{props.title}</h4>
