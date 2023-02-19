@@ -5,7 +5,7 @@ import vul_black from '../public/assets/imgs/Vulcanzy_black.png';
 function HomePage() {
   return (
     <div>
-      <div className="flex pt-[140px] flex-col items-center justify-start h-screen">
+      <div className="flex pt-[140px] h-screen flex-col items-center relative">
         <Image
           src={vul_black}
           alt="Black-Logo"
@@ -15,7 +15,7 @@ function HomePage() {
         <h1 className="subhead text-center text-white">
           <i>#RHAPSODY</i>
         </h1>
-        <div className="text-white mt-[17rem] font-[700]  flex items-center  justify-between w-full">
+        <div className="text-white mt-[17rem] font-[700] flex items-center justify-between w-full">
           <div className="ml-12">
             <h2 className="text-[2rem]">JOIN THE RYTHM OF #RHAPSODY:</h2>
             <h2 className="text-[1.5rem] font-[700]">
@@ -28,6 +28,7 @@ function HomePage() {
             </a>
           </label>
         </div>
+        <div className="gradient-fade absolute bottom-0" />
       </div>
       <div className=" flex flex-col items-center justify-center h-screen bg-black text-white">
         <h1 className="text-[3rem] text-center text-white">
