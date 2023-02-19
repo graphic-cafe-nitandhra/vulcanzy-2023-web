@@ -17,7 +17,7 @@ export const Navbar = ({}) => {
     <div className="home">
       <div className="nav max-[920px]:bg-black w-full fixed top-0 left-0 text-white text-2xl z-10 ">
         <ul className="flex flex-wrap justify-between items-center max-[920px]:flex-col max-[920px]:items-start">
-          <li className="flex-column text-center ml-10 ">
+          <li className="flex-column text-center ml-10">
             <Link href="/">
               <Image
                 className="mt-5"

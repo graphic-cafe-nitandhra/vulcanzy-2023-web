@@ -6,12 +6,7 @@ function HomePage() {
   return (
     <div>
       <div className="flex pt-[140px] h-screen flex-col items-center relative">
-        <Image
-          src={vul_black}
-          alt="Black-Logo"
-          width={250}
-          height={100}
-        ></Image>
+        <Image src={vul_black} alt="Black-Logo" width={250} height={100} />
         <h1 className="subhead text-center text-white">
           <i>#RHAPSODY</i>
         </h1>
