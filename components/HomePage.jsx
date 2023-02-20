@@ -15,7 +15,7 @@ function HomePage() {
                 width={250}
                 height={100}
               />
-              <h1 className="subhead text-white">#RHAPSODY</h1>
+              <h1 className="subhead text-white font-elMassir">#RHAPSODY</h1>
             </div>
             <div className="text-white font-bold flex flex-col gap-10 md:flex-row md:items-center justify-between w-full px-5 md:px-10">
               <div>
@@ -35,8 +35,8 @@ function HomePage() {
         </div>
       </div>
       <div className="flex flex-col gap-12 items-center justify-center h-screen bg-black text-white">
-        <h1 className="text-5xl text-center text-white">
-          LET THE MUSIC BEGIN!
+        <h1 className="text-5xl text-center text-white font-elMassir">
+          Let the music begin!
         </h1>
         <Timer />
       </div>
