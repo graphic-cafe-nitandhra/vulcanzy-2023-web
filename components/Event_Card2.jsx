@@ -12,12 +12,6 @@ function Event_Card2(props) {
               <>
                 <p class="title ">{props.title}</p>
                 <h4 className="text-[.85rem] px-2">{props.description}</h4>
-                <button class="learn-more w-[15rem] h-[3.75rem] absolute bottom-[15%] left-[18%]">
-                  {' '}
-                  <a href={props.redirect} target="_blank">
-                    Register
-                  </a>
-                </button>
                 <p>
                   <img
                     className="w-[5rem] club_logo h-auto rounded-full absolute my-4 top-0 left-[37.5%]"
@@ -42,15 +36,23 @@ function Event_Card2(props) {
             }`}
           >
             {props.poster_link == null ? (
-              <img
-                className="w-full h-full rounded-[25px] aspect-auto"
-                src={props.poster_link}
-              />
+              <>
+                <button class="learn-more w-[15rem] h-[3.75rem] absolute bottom-[42%]  left-[20%]">
+                  {' '}
+                  <a href={props.redirect} target="_blank">
+                    Register
+                  </a>
+                </button>
+                <img
+                  className="w-full h-full rounded-[25px] aspect-auto"
+                  src={props.poster_link}
+                />
+              </>
             ) : (
               <>
                 <p class="title my-4">{props.title}</p>
                 <h4 className="text-[.8rem] px-2">{props.description}</h4>
-                <button class="learn-more w-[15rem] h-[3.75rem] absolute bottom-[8%] left-[18%]">
+                <button class="learn-more w-[15rem] h-[3.75rem] absolute bottom-[8%]  left-[18%]">
                   {' '}
                   <a href={props.redirect} target="_blank">
                     Register

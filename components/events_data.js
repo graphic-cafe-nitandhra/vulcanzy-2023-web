@@ -259,7 +259,7 @@ const events_data = [
     name: 'Classdo',
     cat: 'cult',
     link: 'https://i.ibb.co/Z6CPd8c/DND.jpg',
-    poster: 'https://i.ibb.co/86ckH39/D-D.jpg',
+    poster: null,
     descr: 'Jumble the riddle-Recreate-change of emotion',
     red_link: 'https://bit.ly/3xDdKXU',
   },
