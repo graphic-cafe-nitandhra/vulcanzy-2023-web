@@ -223,6 +223,9 @@ button.learn-more:active::before {
   .filter_butns {
     justify-content: center;
   }
+  .gallery {
+    width: 100%;
+  }
 }
 @media (max-width: 398px) {
   .flip-card {
