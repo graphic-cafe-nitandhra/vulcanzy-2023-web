@@ -31,12 +31,13 @@ const events_data = [
     red_link: 'https://bit.ly/3End4tc',
   },
   {
-    id: 2,
+    id: 44,
     name: 'Model Making',
     cat: 'tech',
     link: 'https://i.ibb.co/tPfnVhj/CEA-logo.png',
-    poster: null,
-    descr: null,
+    poster: 'https://i.ibb.co/kqQMhxL/35b07bac-c3ac-4e5a-a4ff-5f4e953c92ea.jpg',
+    descr:
+      ' Bring out your skill and interest to make a model of any civil engineering aspect.You will be provided with the required materials(for eg. steel wires, foam boards, quick setting cement, pliers, various types of glue, mini bricks etc.)',
     red_link: 'https://bit.ly/3End4tc',
   },
   {
@@ -203,6 +204,7 @@ const events_data = [
     cat: 'tech',
     link: 'https://i.ibb.co/0n1JCrW/MMEA-LOGO-B-BG.png',
     poster: 'https://i.ibb.co/fF6vCSD/20230217-154034-0000.png',
+    descr: null,
     red_link: 'https://bit.ly/3End4tc',
   },
   {
@@ -265,10 +267,10 @@ const events_data = [
   },
   {
     id: 27,
-    name: 'Classdo',
+    name: 'Classido',
     cat: 'cult',
     link: 'https://i.ibb.co/Z6CPd8c/DND.jpg',
-    poster: null,
+    poster: 'https://i.ibb.co/VHmzj7p/classido-DND.jpg',
     descr: 'Jumble the riddle-Recreate-change of emotion',
     red_link: 'https://bit.ly/3xDdKXU',
   },
@@ -349,7 +351,8 @@ const events_data = [
     link: 'https://i.ibb.co/fpPccG3/lnd.jpg',
     poster:
       'https://i.ibb.co/th396mL/Copy-of-Brown-Vintage-Stand-up-Poster-Portrait-Instagram-Post-Square-1.png',
-    descr: null,
+    descr:
+      'Arz Kiya Hai is a unique shayari competition that celebrates the beauty and depth of this ancient art form. This event brings together talented poets from all over the campus to compete in a friendly and supportive atmosphere.',
     red_link: 'https://bit.ly/3xDdKXU',
   },
   {
@@ -388,7 +391,7 @@ const events_data = [
     name: 'Capture to correct',
     cat: 'cult',
     link: 'https://i.ibb.co/w40cg4N/nve.jpg',
-    poster: null,
+    poster: 'https://i.ibb.co/hLQ5jp0/capture-to-correct-Divya-Doddaboina.png',
     descr:
       'To correct and enhance the college surroundings and ambiance for exemplary beauty.',
     red_link: 'https://bit.ly/3End4tc',
@@ -398,7 +401,8 @@ const events_data = [
     name: 'Phrases to make over',
     cat: 'cult',
     link: 'https://i.ibb.co/w40cg4N/nve.jpg',
-    poster: null,
+    poster:
+      'https://i.ibb.co/yFr892S/phrases-to-make-over-Divya-Doddaboina.png',
     descr:
       " To advise pupils about the do and don't around the campus premises",
     red_link: '1',
@@ -408,7 +412,7 @@ const events_data = [
     name: 'Solve Me',
     cat: 'cult',
     link: 'https://i.ibb.co/w40cg4N/nve.jpg',
-    poster: null,
+    poster: 'https://i.ibb.co/WkS9KkS/solve-me-Divya-Doddaboina.jpg',
     descr:
       'Basic mathematical/physics based riddles given to student. The Team which solves all the riddles in time with the correct logic will be the winner.',
     red_link: 'https://bit.ly/3End4tc',
@@ -432,15 +436,6 @@ const events_data = [
     descr:
       'As the name suggests, it is a hobby in which a person decorates clay pots and vases in various ways. It is a very interesting hobby as the results are often quite diverse (from what you expected!) and creative. One does not even need to learn it from any one nor are there any hard and fast rules to be followed.',
     red_link: 'https://bit.ly/3End4tc',
-  },
-  {
-    id: 44,
-    name: 'Graffiti wall painting',
-    cat: 'cult',
-    link: 'https://i.ibb.co/L6kyhWw/pnp-club-Logo.jpg',
-    poster: null,
-    descr: null,
-    red_link: '1',
   },
   {
     id: 45,
