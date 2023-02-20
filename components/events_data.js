@@ -17,7 +17,7 @@ const events_data = [
     link: 'https://i.ibb.co/5rYkHr3/BEA.jpg',
     poster: 'https://i.ibb.co/h9w40bz/ESCHEWAL-1080-1350-px-1080-1080-px.png',
     descr:
-      'The cursed spirit of Fiametta prowls the night in hunt of a savior. Would you be the one to freeher from this grim, dark dungeon with all its traps and secrets? This experience challenges yourintellect with traps and puzzles that hint at mystery. The dead shall riseth, and thee shalt repent.',
+      'The cursed spirit of Fiametta prowls the night in hunt of a savior. Be the one to free her from this grim, dark dungeon with all its traps and secrets? This experience challenges your intellect with traps and puzzles that hint at mystery. The dead shall riseth, and thee shalt repent.',
     red_link: 'https://bit.ly/3xDdKXU',
   },
   {

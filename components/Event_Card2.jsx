@@ -49,7 +49,7 @@ function Event_Card2(props) {
             ) : (
               <>
                 <p class="title my-4">{props.title}</p>
-                <h4 className="text-[.85rem] px-2">{props.description}</h4>
+                <h4 className="text-[.8rem] px-2">{props.description}</h4>
                 <button class="learn-more w-[15rem] h-[3.75rem] absolute bottom-[8%] left-[18%]">
                   {' '}
                   <a href={props.redirect} target="_blank">
@@ -58,7 +58,7 @@ function Event_Card2(props) {
                 </button>
                 <p>
                   <img
-                    className="w-[5rem] h-auto rounded-full club_logo absolute  top-0 left-[37.5%]"
+                    className="w-[5rem] h-auto rounded-full club_logo absolute  top-1 left-[37.5%]"
                     src={props.club}
                   />
                 </p>
