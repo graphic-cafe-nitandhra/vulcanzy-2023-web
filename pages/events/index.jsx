@@ -15,22 +15,22 @@ function Events() {
     <Default>
       <div className="mt-[120px] text-white">
         <div className="flex flex-col items-center justify-center">
-          <div className="flex justify-between">
+          <div className="flex flex-wrap gap-y-5 justify-between">
             <h1
               onClick={() => setEvents(events_data)}
-              className="text-[1.75rem] flex mx-8 cursor-pointer items-center justify-center w-[10rem] h-[50px] rounded-[50px]  border-spacing-16 bg-[#DC4B5D]"
+              className="text-2xl mx-8 cursor-pointer text-center w-32 md:w-36 rounded-[50px]  border-spacing-16 bg-[#DC4B5D]"
             >
               All
             </h1>
             <h1
               onClick={() => clickHandler('tech')}
-              className="text-[1.75rem] flex mx-8 cursor-pointer items-center justify-center w-[10rem] h-[50px] rounded-[50px]  border-spacing-16 bg-[#DC4B5D]"
+              className="text-2xl mx-8 cursor-pointer text-center w-32 md:w-36 rounded-[50px]  border-spacing-16 bg-[#DC4B5D]"
             >
               Technical
             </h1>
             <h1
               onClick={() => clickHandler('cult')}
-              className="text-[1.75rem] flex mx-8  cursor-pointer items-center justify-center w-[10rem] h-[50px] rounded-[50px]  border-spacing-16 bg-[#DC4B5D]"
+              className="text-2xl mx-8 cursor-pointer text-center w-32 md:w-36 rounded-[50px]  border-spacing-16 bg-[#DC4B5D]"
             >
               Cultural
             </h1>

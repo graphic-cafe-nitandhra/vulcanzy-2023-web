@@ -1,8 +1,9 @@
-function Contact(props) {
+function Contact({ redirects, info, icon }) {
   return (
-    <a target="_blank" href={props.redirects}>
-      <div className="max-w-[24rem] p-6 text-center flex mx-8 my-4 flex-wrap h-[15rem] bor">
-        <h1>{props.info}</h1>
+    <a target="_blank" href={redirects}>
+      <div className="max-w-[24rem] p-12 text-center flex flex-col items-center justify-between flex-wrap h-[15rem] bor">
+        {icon}
+        <h1>{info}</h1>
       </div>
     </a>
   );

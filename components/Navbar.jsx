@@ -16,20 +16,25 @@ export const Navbar = ({}) => {
   return (
     <div className="home">
       <div className="bg-black md:bg-transparent md:bg-gradient-to-b from-black to-transparent w-full fixed top-0 left-0 text-white text-2xl z-10 ">
-        <ul className="flex flex-wrap justify-between md:items-center flex-col md:flex-row items-start">
-          <li className="flex-column text-center ml-10">
-            <Link href="/">
+        <ul className="flex flex-wrap justify-between md:items-center flex-col md:flex-row items-start p-3">
+          <li className="flex w-full md:w-auto justify-between items-center">
+            <Link href="/" className="flex flex-col items-center">
               <Image
-                className="mt-5"
+                className="h-10 md:h-20 w-auto"
                 src={vul_logo}
                 alt="Logo"
-                width={151}
-                height={53}
               ></Image>
               <label>Vulcanzy</label>
             </Link>
+            <li className="md:hidden">
+              <Hamburger toggled={isOpen} toggle={setOpen} onToggle={expand} />
+            </li>
           </li>
-          <div className="menu text-center md:flex flex-wrap md:w-8/12 w-full mr-10 justify-between flex-col md:flex-row hidden gap-6 duration-600">
+          <div
+            className={`menu text-center ${
+              isOpen ? 'flex' : 'hidden'
+            } md:flex flex-wrap md:w-8/12 w-full justify-between flex-col md:flex-row gap-3 duration-600`}
+          >
             <li>
               <Link href="/">Home</Link>
             </li>
@@ -46,9 +51,6 @@ export const Navbar = ({}) => {
               <Link href="/about">About Us</Link>
             </li>
           </div>
-          <li className="absolute top-8 right-5 min-[920px]:hidden">
-            <Hamburger toggled={isOpen} toggle={setOpen} onToggle={expand} />
-          </li>
         </ul>
       </div>
     </div>

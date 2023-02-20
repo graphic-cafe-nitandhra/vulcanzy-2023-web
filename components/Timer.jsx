@@ -26,30 +26,26 @@ function Timer() {
     };
   });
   return (
-    <div id="timer">
-      <section className="hurry-up">
-        <div>
-          <div className="flex text-center  justify-between">
-            <div class="container-day px-6">
-              <h3 class="day text-[3rem]">--</h3>
-              <label className="text-[2.25rem]">Days</label>
-            </div>
-            <div class="container-hour px-6">
-              <h3 class="hour">--</h3>
-              <label className="text-[2.25rem]">Hours</label>
-            </div>
-            <div class="container-minute px-6">
-              <h3 class="minute">--</h3>
-              <label className="text-[2.25rem]">Minutes</label>
-            </div>
-            <div class="container-second px-6">
-              <h3 class="second">--</h3>
-              <label className="text-[2.25rem]">Seconds</label>
-            </div>
-          </div>
+    <section className="hurry-up text-5xl">
+      <div className="flex flex-wrap gap-y-8 text-center justify-around md:justify-between">
+        <div className="px-6">
+          <h3 className="day">--</h3>
+          <label className="text-[2.25rem]">Days</label>
         </div>
-      </section>
-    </div>
+        <div className="px-6">
+          <h3 className="hour">--</h3>
+          <label className="text-[2.25rem]">Hours</label>
+        </div>
+        <div className="px-6">
+          <h3 className="minute">--</h3>
+          <label className="text-[2.25rem]">Minutes</label>
+        </div>
+        <div className="px-6">
+          <h3 className="second">--</h3>
+          <label className="text-[2.25rem]">Seconds</label>
+        </div>
+      </div>
+    </section>
   );
 }
 export default Timer;
