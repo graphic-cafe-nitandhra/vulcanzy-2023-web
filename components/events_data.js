@@ -435,7 +435,7 @@ const events_data = [
   },
   {
     id: 45,
-    name: 'Balancing the Four Quadrants of Life',
+    name: 'Success Quadrants',
     cat: 'cult',
     link: 'https://i.ibb.co/C5ck2n5/Shreshtha-club.jpg',
     poster: 'https://i.ibb.co/thjyb94/shrestha.jpg',
