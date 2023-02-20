@@ -26,9 +26,9 @@ export const Navbar = ({}) => {
               ></Image>
               <label>Vulcanzy</label>
             </Link>
-            <li className="md:hidden">
+            <div className="md:hidden">
               <Hamburger toggled={isOpen} toggle={setOpen} onToggle={expand} />
-            </li>
+            </div>
           </li>
           <div
             className={`menu text-center ${
