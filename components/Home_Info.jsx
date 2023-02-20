@@ -64,10 +64,12 @@ let infoArr = [
 
 function Home_Info({}) {
   return (
-    <div className="hero-2 flex justify-center  h-screen text-center">
-      <div className=" text-white flex my-[22.5rem] justify-around  flex-wrap text-[1.25rem]">
+    <div className="hero-2 flex justify-center text-center">
+      <div className="text-white flex gap-9 md:my-[22.5rem] justify-around flex-wrap text-[1.25rem]">
         {infoArr.map(({ text, link, icon }) => {
-          return <Contact info={text} redirects={link} icon={icon} />;
+          return (
+            <Contact key={icon} info={text} redirects={link} icon={icon} />
+          );
         })}
       </div>
     </div>
