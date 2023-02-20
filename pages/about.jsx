@@ -3,7 +3,7 @@ import Default from '@/layouts/default';
 function About() {
   return (
     <Default>
-      <div className="mt-[120px] text-white  bg-black">
+      <div className="mt-[120px] text-white h-screen bg-black">
         <div className="mt-[12.5rem] flex flex-col  items-center">
           <h1 className="text-[1.75rem] flex items-center justify-center w-[10rem] h-[50px] rounded-[50px]  border-spacing-16 bg-[#DC4B5D]">
             About Us

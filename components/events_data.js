@@ -131,7 +131,7 @@ const events_data = [
   {
     id: 13,
     name: 'Paper Presentation',
-    cat: 'odd',
+    cat: 'tech',
     link: 'https://i.ibb.co/L6t0Drn/ECEA.jpg',
     poster: 'https://i.ibb.co/D4MJpzk/20230218-165613-0000.png',
     descr:
@@ -141,17 +141,17 @@ const events_data = [
   {
     id: 14,
     name: 'Prison Breakout',
-    cat: 'odd',
+    cat: 'cult',
     link: 'https://i.ibb.co/hWLZJBd/EEA.jpg',
     poster: 'https://i.ibb.co/RCGhLgL/Prison-Breakout-Instapost.jpg',
     descr:
-      'This game is based on accuracy where people are tickled with the basics of Electrical Components.Here participants are asked to solve the puzzles & riddles.',
+      'A game  based on accuracy where people are tickled with the basics of Electrical Components.Here participants are asked to solve the puzzles & riddles.',
     red_link: 'https://bit.ly/3End4tc',
   },
   {
     id: 15,
     name: 'Kaboom',
-    cat: 'odd',
+    cat: 'tech',
     link: 'https://i.ibb.co/hWLZJBd/EEA.jpg',
     poster: 'https://i.ibb.co/72RGDRK/Kaboom-Instapost.jpg',
     descr:
@@ -171,7 +171,7 @@ const events_data = [
   {
     id: 17,
     name: 'Mechanical Gala',
-    cat: 'odd',
+    cat: 'tech',
     link: 'https://i.ibb.co/Fsj6HCL/MEA-logo.jpg',
     poster: 'https://i.ibb.co/jRLjhpy/MECHANICAL-GALA-INSTA-POST.png',
     descr:
@@ -401,7 +401,7 @@ const events_data = [
     link: 'https://i.ibb.co/w40cg4N/nve.jpg',
     poster: null,
     descr:
-      'Basic mathematical or physics based riddles given to student. The Team which solves all the riddles in time with the correct logic will be the winner.',
+      'Basic mathematical/physics based riddles given to student. The Team which solves all the riddles in time with the correct logic will be the winner.',
     red_link: 'https://bit.ly/3End4tc',
   },
   {
@@ -440,7 +440,7 @@ const events_data = [
     link: 'https://i.ibb.co/C5ck2n5/Shreshtha-club.jpg',
     poster: 'https://i.ibb.co/thjyb94/shrestha.jpg',
     descr:
-      'A team of four members with four rounds with points given on  Emotional Quadrant (EQ), Intelligence Quadrant (IQ), Spiritual Quadrant (SQ), and Physical Quadrant (PQ).The score for all the teams is calculated at the end and the team with highest points is the winner.',
+      'A team of four in four rounds with points given on  Emotional Quadrant (EQ), Intelligence Quadrant (IQ), Spiritual Quadrant (SQ), and Physical Quadrant (PQ).The score for all the teams is calculated and the team with highest points wins.',
     red_link: 'https://bit.ly/3End4tc',
   },
 ];

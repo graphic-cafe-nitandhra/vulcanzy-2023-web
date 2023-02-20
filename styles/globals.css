@@ -7,6 +7,10 @@
   font-weight: 700;
 }
 
+.active {
+  border: 5px solid white;
+}
+
 @media (min-width: 768px) {
   .nav {
     background-image: linear-gradient(
@@ -95,7 +99,7 @@ body {
   font-size: 1.5em;
   font-weight: 900;
   text-align: center;
-  margin: 0;
+  margin: 1rem 0;
 }
 
 .flip-card-inner {
@@ -213,4 +217,33 @@ button.learn-more:active::before {
   box-shadow: 0 0 0 2px #b18597, 0 0 #ffe3e2;
   -webkit-transform: translate3d(0, 0, -1em);
   transform: translate3d(0, 0, -1em);
+}
+@media (max-width: 430px) {
+  .filter_butns {
+    justify-content: center;
+  }
+}
+@media (max-width: 398px) {
+  .flip-card {
+    width: 20rem;
+    height: 22.5rem;
+  }
+  .club_logo {
+    width: 3rem;
+    height: auto;
+    left: 45%;
+    margin: 1rem 0;
+  }
+  .title {
+    margin: 0.25rem 0;
+  }
+  .learn-more {
+    left: 12%;
+  }
+}
+@media (max-width: 330px) {
+  .flip-card {
+    width: 15rem;
+    height: 15rem;
+  }
 }
