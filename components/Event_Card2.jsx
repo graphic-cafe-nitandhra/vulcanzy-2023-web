@@ -11,10 +11,12 @@ function Event_Card2(props) {
           </div>
           <div class="flip-card-back  box_border">
             <p class="title my-4">{props.title}</p>
-            <h4 className="text-[.95rem] px-2">{props.description}</h4>
-            <button class="learn-more w-[15rem] h-[auto] absolute bottom-[8%] left-[18%]">
+            <h4 className="text-[.85rem] px-2">{props.description}</h4>
+            <button class="learn-more w-[15rem] h-[3.75rem] absolute bottom-[8%] left-[18%]">
               {' '}
-              Learn More
+              <a href={props.redirect} target="_blank">
+                Learn More
+              </a>
             </button>
             <p>
               <img

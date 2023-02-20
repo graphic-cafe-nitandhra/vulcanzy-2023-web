@@ -43,6 +43,7 @@ function Events() {
                   club={e.link}
                   poster_link={e.poster}
                   description={e.descr}
+                  redirect={e.red_link}
                 />
               );
             })}
