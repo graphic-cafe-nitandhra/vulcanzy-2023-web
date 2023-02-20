@@ -3,7 +3,8 @@ import { useState } from 'react';
 import { Spin as Hamburger } from 'hamburger-react';
 import Link from 'next/link';
 import vul_logo from '../public/assets/imgs/Vulcanzy_logo.png';
-export const Navbar = ({}) => {
+
+const Navbar = ({}) => {
   const [isOpen, setOpen] = useState(false);
   const expand = () => {
     if (isOpen) {
@@ -26,9 +27,9 @@ export const Navbar = ({}) => {
               ></Image>
               <label>Vulcanzy</label>
             </Link>
-            <li className="md:hidden">
+            <div className="md:hidden">
               <Hamburger toggled={isOpen} toggle={setOpen} onToggle={expand} />
-            </li>
+            </div>
           </li>
           <div
             className={`menu text-center ${
@@ -56,3 +57,5 @@ export const Navbar = ({}) => {
     </div>
   );
 };
+
+export default Navbar;
