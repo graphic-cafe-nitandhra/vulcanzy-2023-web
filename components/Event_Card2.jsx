@@ -15,7 +15,7 @@ function Event_Card2(props) {
                 <button class="learn-more w-[15rem] h-[3.75rem] absolute bottom-[15%] left-[18%]">
                   {' '}
                   <a href={props.redirect} target="_blank">
-                    Learn More
+                    Register
                   </a>
                 </button>
                 <p>
@@ -53,7 +53,7 @@ function Event_Card2(props) {
                 <button class="learn-more w-[15rem] h-[3.75rem] absolute bottom-[8%] left-[18%]">
                   {' '}
                   <a href={props.redirect} target="_blank">
-                    Learn More
+                    Register
                   </a>
                 </button>
                 <p>
@@ -69,7 +69,7 @@ function Event_Card2(props) {
             {/* <button class="learn-more w-[15rem] h-[3.75rem] absolute bottom-[8%] left-[18%]">
               {' '}
               <a href={props.redirect} target="_blank">
-                Learn More
+                Register
               </a>
             </button> */}
             {/* <p>
