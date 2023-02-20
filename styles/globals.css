@@ -229,10 +229,10 @@ button.learn-more:active::before {
     height: 22.5rem;
   }
   .club_logo {
-    width: 3rem;
+    width: 3.25rem;
     height: auto;
-    left: 45%;
-    margin: 1rem 0;
+    left: 42.5%;
+    margin: 0.75rem 0;
   }
   .title {
     margin: 0.25rem 0;
@@ -243,7 +243,17 @@ button.learn-more:active::before {
 }
 @media (max-width: 330px) {
   .flip-card {
-    width: 15rem;
-    height: 15rem;
+    width: 17.5rem;
+    height: 18rem;
+  }
+  .flip-card .title {
+    font-size: 1rem;
+  }
+  .flip-card h4 {
+    font-size: 0.65rem;
+  }
+  .flip-card .learn-more {
+    left: 8%;
+    height: 2.5rem;
   }
 }

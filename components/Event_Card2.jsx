@@ -12,6 +12,7 @@ function Event_Card2(props) {
               <>
                 <p class="title ">{props.title}</p>
                 <h4 className="text-[.85rem] px-2">{props.description}</h4>
+
                 <p>
                   <img
                     className="w-[5rem] club_logo h-auto rounded-full absolute my-4 top-0 left-[37.5%]"
