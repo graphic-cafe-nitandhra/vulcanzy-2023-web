@@ -7,16 +7,16 @@ export const Navbar = ({}) => {
   const [isOpen, setOpen] = useState(false);
   const expand = () => {
     if (isOpen) {
-      document.querySelector('.menu').classList.add('max-[920px]:hidden');
+      document.querySelector('.menu').classList.add('hidden');
     } else {
-      document.querySelector('.menu ').classList.remove('max-[920px]:hidden');
+      document.querySelector('.menu ').classList.remove('hidden');
     }
   };
 
   return (
     <div className="home">
-      <div className="nav max-[920px]:bg-black w-full fixed top-0 left-0 text-white text-2xl z-10 ">
-        <ul className="flex flex-wrap justify-between items-center max-[920px]:flex-col max-[920px]:items-start">
+      <div className="bg-black md:bg-transparent md:bg-gradient-to-b from-black to-transparent w-full fixed top-0 left-0 text-white text-2xl z-10 ">
+        <ul className="flex flex-wrap justify-between md:items-center flex-col md:flex-row items-start">
           <li className="flex-column text-center ml-10">
             <Link href="/">
               <Image
@@ -29,7 +29,7 @@ export const Navbar = ({}) => {
               <label>Vulcanzy</label>
             </Link>
           </li>
-          <div className="menu text-center flex flex-wrap w-8/12 max-[920px]:w-full mr-10 justify-between max-[920px]:flex-col max-[920px]:hidden gap-6 duration-600">
+          <div className="menu text-center md:flex flex-wrap md:w-8/12 w-full mr-10 justify-between flex-col md:flex-row hidden gap-6 duration-600">
             <li>
               <Link href="/">Home</Link>
             </li>
