@@ -13,7 +13,7 @@ const events_data = [
   {
     id: 1,
     name: 'Eschewal',
-    cat: 'cult',
+    cat: 'tech',
     link: 'https://i.ibb.co/5rYkHr3/BEA.jpg',
     poster: 'https://i.ibb.co/h9w40bz/ESCHEWAL-1080-1350-px-1080-1080-px.png',
     descr:
@@ -31,9 +31,18 @@ const events_data = [
     red_link: 'https://bit.ly/3End4tc',
   },
   {
+    id: 2,
+    name: 'Model Making',
+    cat: 'tech',
+    link: 'https://i.ibb.co/tPfnVhj/CEA-logo.png',
+    poster: null,
+    descr: null,
+    red_link: 'https://bit.ly/3End4tc',
+  },
+  {
     id: 3,
     name: 'SoLiquid',
-    cat: 'cult',
+    cat: 'tech',
     link: 'https://i.ibb.co/QX3ryxw/Ch-EA-New-Logo.png',
     poster: 'https://i.ibb.co/j6P275r/CHEA-SOLIQUID-INSTAGRAM.png',
     descr:
@@ -62,8 +71,8 @@ const events_data = [
   },
   {
     id: 6,
-    name: 'Expo',
-    cat: 'cult',
+    name: 'Tech Expo',
+    cat: 'tech',
     link: 'https://i.ibb.co/rG8hpKL/CSEA.jpg',
     poster: 'https://i.ibb.co/mCKZ7qQ/expo-square.png',
     descr:
@@ -82,7 +91,7 @@ const events_data = [
   {
     id: 8,
     name: 'The Maze Runner',
-    cat: 'cult',
+    cat: 'tech',
     link: 'https://i.ibb.co/L6t0Drn/ECEA.jpg',
     poster: 'https://i.ibb.co/GC2R2HL/maze-runner-2.png',
     descr:
@@ -112,7 +121,7 @@ const events_data = [
   {
     id: 11,
     name: 'Laser Tag',
-    cat: 'cult',
+    cat: 'tech',
     link: 'https://i.ibb.co/L6t0Drn/ECEA.jpg',
     poster: 'https://i.ibb.co/mGLPp1v/5-20230218-203341-0004.png',
     descr: null,
@@ -219,7 +228,7 @@ const events_data = [
   {
     id: 22,
     name: 'Hydroponic System',
-    cat: 'tech',
+    cat: 'cult',
     link: 'https://i.ibb.co/c3Tf8KT/Screenshot-20221227-141939-Instagram.jpg',
     poster: 'https://i.ibb.co/k4YtngF/Brindavanam.jpg',
     descr:
@@ -229,7 +238,7 @@ const events_data = [
   {
     id: 23,
     name: 'Vertical Farming',
-    cat: 'tech',
+    cat: 'cult',
     link: 'https://i.ibb.co/c3Tf8KT/Screenshot-20221227-141939-Instagram.jpg',
     poster: 'https://i.ibb.co/k4YtngF/Brindavanam.jpg',
     descr:

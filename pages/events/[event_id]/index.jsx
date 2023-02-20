@@ -5,8 +5,10 @@ function Event() {
   const eventID = router.query.event_id;
   return (
     <Default>
-      <div className="mt-[120px]">
-        <h1>This event is:{eventID}</h1>
+      <div className="mt-[120px] h-screen">
+        <div className="flex items-center justify-center h-full">
+          <h1 className="text-4xl text-white text-center">Page Not Found ;)</h1>
+        </div>
       </div>
     </Default>
   );
