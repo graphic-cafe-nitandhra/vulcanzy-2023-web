@@ -4,7 +4,7 @@ function Gallery() {
   const imgs1 = [
     'https://i.ibb.co/tJBnHC7/Dance-1.jpg',
     'https://i.ibb.co/dm0dXgx/Dance-2.jpg',
-    'https://i.ibb.co/2MHsQqd/Dance-3.jpg',
+    'https://i.ibb.co/KxgZkKQ/Student-End-Pic.jpg',
   ];
   const imgs2 = [
     'https://i.ibb.co/2v59G2K/DSC-0186.jpg',

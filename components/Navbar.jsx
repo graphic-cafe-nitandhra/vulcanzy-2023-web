@@ -15,7 +15,7 @@ const Navbar = ({}) => {
   };
 
   return (
-    <div className="home">
+    <div className="home font-elMassir">
       <div className="bg-black md:bg-transparent md:bg-gradient-to-b from-black to-transparent w-full fixed top-0 left-0 text-white text-2xl z-10 ">
         <ul className="flex flex-wrap justify-between md:items-center flex-col md:flex-row items-start p-3">
           <li className="flex w-full md:w-auto justify-between items-center">

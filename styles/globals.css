@@ -3,7 +3,6 @@
 @tailwind utilities;
 
 .home {
-  font-family: 'Courier New', Courier, monospace;
   font-weight: 700;
 }
 

@@ -151,7 +151,7 @@ const events_data = [
   {
     id: 14,
     name: 'Prison Breakout',
-    cat: 'cult',
+    cat: 'tech',
     link: 'https://i.ibb.co/hWLZJBd/EEA.jpg',
     poster: 'https://i.ibb.co/RCGhLgL/Prison-Breakout-Instapost.jpg',
     descr:
@@ -173,7 +173,7 @@ const events_data = [
     name: 'RACE-CHASE-AND-ACE',
     cat: 'tech',
     link: 'https://i.ibb.co/Fsj6HCL/MEA-logo.jpg',
-    poster: 'https://i.ibb.co/Nps2390/RACE-CHASE-AND-ACE-INSTA-POST.png',
+    poster: 'https://i.ibb.co/2k5RwvK/MEA-Race-Chase-and-Ace.png',
     descr:
       'It is basically a hurdle race where the contestants have to cross a series of challenges with the help of a remote controlled vehicle by operating a remote and the person who completed the whole track within a minimum amount of time is declared as the winner',
     red_link: 'https://bit.ly/3End4tc',
@@ -186,7 +186,7 @@ const events_data = [
     poster: 'https://i.ibb.co/jRLjhpy/MECHANICAL-GALA-INSTA-POST.png',
     descr:
       'In this event different types of mechanisms like Geneva mechanism, crank and slider mechanisms will be taken into application and we will plan one interesting game with all such kind of mechanisms.',
-    red_link: '1',
+    red_link: 'https://forms.gle/MF4uR6XFD4h3hGhN9',
   },
   {
     id: 18,
@@ -204,7 +204,8 @@ const events_data = [
     cat: 'tech',
     link: 'https://i.ibb.co/0n1JCrW/MMEA-LOGO-B-BG.png',
     poster: 'https://i.ibb.co/fF6vCSD/20230217-154034-0000.png',
-    descr: null,
+    descr:
+      'A dispay of important elements and also alloys with their compositions. Al/Ga casting by participants with puzzle solving.',
     red_link: 'https://bit.ly/3End4tc',
   },
   {
@@ -229,24 +230,24 @@ const events_data = [
   },
   {
     id: 22,
-    name: 'Hydroponic System',
+    name: 'Hydroponic System & Vertical Farming',
     cat: 'cult',
     link: 'https://i.ibb.co/c3Tf8KT/Screenshot-20221227-141939-Instagram.jpg',
     poster: 'https://i.ibb.co/k4YtngF/Brindavanam.jpg',
     descr:
-      'Hydroponics is the cultivation of plants without using soil. The project is aimed to build the working model of Hydroponics System and grow leafy vegetables.',
+      'Hydroponics is the cultivation of plants without using soil. The project is aimed to build the working model of Hydroponics System and grow leafy vegetables. Aim of this event is to demonstrate a vertical Farming model to grow leafy vegetables by utilizing plastic waste.',
     red_link: 'https://bit.ly/3xDdKXU',
   },
-  {
-    id: 23,
-    name: 'Vertical Farming',
-    cat: 'cult',
-    link: 'https://i.ibb.co/c3Tf8KT/Screenshot-20221227-141939-Instagram.jpg',
-    poster: 'https://i.ibb.co/k4YtngF/Brindavanam.jpg',
-    descr:
-      'Aim of this event is to demonstrate a vertical Farming model to grow leafy vegetables by utilizing plastic waste.',
-    red_link: 'https://bit.ly/3xDdKXU',
-  },
+  // {
+  //   id: 23,
+  //   name: 'Vertical Farming',
+  //   cat: 'cult',
+  //   link: 'https://i.ibb.co/c3Tf8KT/Screenshot-20221227-141939-Instagram.jpg',
+  //   poster: 'https://i.ibb.co/k4YtngF/Brindavanam.jpg',
+  //   descr:
+  //     'Aim of this event is to demonstrate a vertical Farming model to grow leafy vegetables by utilizing plastic waste.',
+  //   red_link: 'https://bit.ly/3xDdKXU',
+  // },
   {
     id: 24,
     name: 'Talent Hunt ',
