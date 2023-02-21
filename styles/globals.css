@@ -226,6 +226,10 @@ button.learn-more:active::before {
   .gallery {
     width: 100%;
   }
+  .sponsors {
+    width: 15rem;
+    height: auto;
+  }
 }
 @media (max-width: 398px) {
   .flip-card {
