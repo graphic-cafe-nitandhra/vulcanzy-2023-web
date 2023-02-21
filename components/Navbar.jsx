@@ -22,7 +22,7 @@ const Navbar = ({}) => {
             <Link href="/" className="flex flex-col items-center">
               <img
                 className="h-10 md:h-20 w-auto"
-                src="https://i.ibb.co/bm1G1Wg/Vulcanzy-logo.png"
+                src="./assets/imgs/Vulcanzy_logo.png"
                 alt="Logo"
               />
               <label>Vulcanzy</label>

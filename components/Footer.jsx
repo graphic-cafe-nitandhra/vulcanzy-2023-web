@@ -5,7 +5,7 @@ const Footer = ({}) => {
     <footer className="flex justify-between bg-black items-center w-full relative text-white">
       <img
         className="h-5 foot_logo md:h-12 w-auto px-4"
-        src="https://i.ibb.co/bm1G1Wg/Vulcanzy-logo.png"
+        src="./assets/imgs/Vulcanzy_logo.png"
         alt="Logo"
       />
       <div className="foot-txt px-4">
