@@ -20,11 +20,11 @@ const Navbar = ({}) => {
         <ul className="flex flex-wrap justify-between md:items-center flex-col md:flex-row items-start p-3">
           <li className="flex w-full md:w-auto justify-between items-center">
             <Link href="/" className="flex flex-col items-center">
-              <Image
+              <img
                 className="h-10 md:h-20 w-auto"
-                src={vul_logo}
+                src="https://i.ibb.co/bm1G1Wg/Vulcanzy-logo.png"
                 alt="Logo"
-              ></Image>
+              />
               <label>Vulcanzy</label>
             </Link>
             <div className="md:hidden">
