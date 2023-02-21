@@ -68,10 +68,7 @@ function Sponsors() {
                 <h2 className="text-3xl text-center">{e.title}</h2>
                 {e.logos.map(each => {
                   return (
-                    <img
-                      src={each}
-                      className="sponsors w-[27.5rem] h-[auto] aspect-video"
-                    />
+                    <img src={each} className="sponsors w-[27.5rem] h-[auto]" />
                   );
                 })}
               </div>
