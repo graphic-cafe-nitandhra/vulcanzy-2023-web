@@ -17,21 +17,23 @@ function HomePage() {
               />
               <h1 className="subhead text-white font-elMassir">#RHAPSODY</h1>
             </div>
-            <div className="text-white font-bold flex flex-col gap-10 md:flex-row md:items-center justify-between w-full px-5 md:px-10">
+            <div className="text-white font-bold flex flex-col gap-3 md:gap-10 md:flex-row md:items-center justify-start md:justify-between w-full px-5 md:px-10">
               <div>
-                <h2 className="text-4xl">JOIN THE RYTHM OF #RHAPSODY:</h2>
-                <h2 className="text-2xl font-[700]">
+                <h2 className="text-2xl md:text-4xl">
+                  JOIN THE RYTHM OF #RHAPSODY:
+                </h2>
+                <h2 className="text-xl md:text-2xl font-[700]">
                   Experience the ultimate college fest celebration
                 </h2>
               </div>
-              <label className="text-2xl flex items-center justify-center w-[100px] h-[50px] rounded-[50px]  border-spacing-16 bg-[#DC4B5D]">
+              <label className="text-2xl flex items-center justify-center w-[100px] h-[50px] rounded-[50px] border-spacing-16 bg-[#DC4B5D]">
                 <a href="https://bit.ly/3xuySzf" target="_blank">
                   Join
                 </a>
               </label>
             </div>
           </div>
-          <div className="gradient-fade" />
+          <div className="gradient-fade h-20 md:h-40 w-full" />
         </div>
       </div>
       <div className="flex flex-col gap-12 items-center justify-center h-screen bg-black text-white">

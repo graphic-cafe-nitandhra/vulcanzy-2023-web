@@ -49,7 +49,7 @@ const Navbar = ({}) => {
               <Link href="/gallery">Gallery</Link>
             </li>
             <li className="">
-              <Link href="/about">About Us</Link>
+              <Link href="/accomodation">Accomodation</Link>
             </li>
           </div>
         </ul>

@@ -136,7 +136,8 @@ const events_data = [
     poster: 'https://i.ibb.co/pRzxxmv/png-20230217-185659-0000.png',
     descr:
       'Participants are provided with a list of topics from which they can choose one and design and implement a project on their own and must present it on the day of evaluation in front of a Panel.The best three presentations will get Prize Money',
-    red_link: '1',
+    red_link:
+      'https://docs.google.com/forms/d/e/1FAIpQLSdxOf8kmCHzuxdl6DAgqv1tzLf7_LY5fMp2OxvhhPdluVQ2kQ/viewform',
   },
   {
     id: 13,
@@ -146,7 +147,7 @@ const events_data = [
     poster: 'https://i.ibb.co/D4MJpzk/20230218-165613-0000.png',
     descr:
       'The participants will have to give a paper presentation of their research papers in front of a panel. The best three presentations will get Prize money .',
-    red_link: '1',
+    red_link: 'https://forms.gle/PJHDGVXcktqjg6tm8',
   },
   {
     id: 14,
@@ -248,15 +249,15 @@ const events_data = [
   //     'Aim of this event is to demonstrate a vertical Farming model to grow leafy vegetables by utilizing plastic waste.',
   //   red_link: 'https://bit.ly/3xDdKXU',
   // },
-  {
-    id: 24,
-    name: 'Talent Hunt ',
-    cat: 'cult',
-    link: 'https://i.ibb.co/DpTGtkp/CHITRAM-Logo.png',
-    poster: 'https://i.ibb.co/QFxTCMb/Chitram.jpg',
-    descr: 'Cover song / shortfilm contest',
-    red_link: '1',
-  },
+  // {
+  //   id: 24,
+  //   name: 'Talent Hunt ',
+  //   cat: 'cult',
+  //   link: 'https://i.ibb.co/DpTGtkp/CHITRAM-Logo.png',
+  //   poster: 'https://i.ibb.co/QFxTCMb/Chitram.jpg',
+  //   descr: 'Cover song / shortfilm contest',
+  //   red_link: '1',
+  // },
   {
     id: 25,
     name: 'Movie screening',
@@ -418,16 +419,16 @@ const events_data = [
       'Basic mathematical/physics based riddles given to student. The Team which solves all the riddles in time with the correct logic will be the winner.',
     red_link: 'https://bit.ly/3End4tc',
   },
-  {
-    id: 42,
-    name: 'Drama',
-    cat: 'cult',
-    link: 'https://i.ibb.co/w40cg4N/nve.jpg',
-    poster: null,
-    descr:
-      'Performing a drama on stage about human values with masks and tshirts',
-    red_link: '1',
-  },
+  // {
+  //   id: 42,
+  //   name: 'Drama',
+  //   cat: 'cult',
+  //   link: 'https://i.ibb.co/w40cg4N/nve.jpg',
+  //   poster: null,
+  //   descr:
+  //     'Performing a drama on stage about human values with masks and tshirts',
+  //   red_link: '1',
+  // },
   {
     id: 43,
     name: 'Pot painting',
