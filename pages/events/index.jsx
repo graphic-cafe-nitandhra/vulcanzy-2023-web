@@ -65,7 +65,12 @@ function Events() {
               Cultural
             </h1>
           </div>
-          <div className="flex justify-center my-8 flex-wrap">
+          <h2 className="p-4 mt-8 text-center">
+            <b>Note:</b> If you're just visting without participating in any
+            events, register yourself as an attendee by selecting "None" option
+            in the redirected link.{' '}
+          </h2>
+          <div className="flex justify-center my-4 flex-wrap">
             {events.map(e => {
               return (
                 <Event_Card2

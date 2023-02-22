@@ -117,7 +117,7 @@ const events_data = [
     poster: 'https://i.ibb.co/JnKcHDM/1-20230218-203341-0000.png',
     descr:
       ' Participants will be given an incorrect code and they are required to debug the code and successfully execute it. Each round has a time limit and points are awarded for both design and speed of completion.',
-    red_link: '1',
+    red_link: 'https://forms.gle/fv7tgoQW6JXVmY1k6',
   },
   {
     id: 11,
